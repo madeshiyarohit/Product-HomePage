@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Fredoka", sans-serif;
+}
+nav {
+  width: 90%;
+  margin: 0 auto;
+  padding: 36px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro-section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.nav-items {
+  display: flex;
+}
+.nav-items h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding: 0 32px;
+  font-weight: 300;
+}
+.nav-items h5.active-item {
+  font-weight: 600;
+  color: #fe5e35;
+}
+.left-section {
+  width: 60%;
+}
+.left-section h3 {
+  font-size: 36px;
+  padding: 20px 10px 20px 0;
+  font-family: "Poppins", sans-serif;
+}
+.left-section img[alt="circles"] {
+  width: 50px;
+}
+.left-section h1 {
+  font-size: 72px;
+  font-family: "Fredoka One", sans-serif;
+}
+.sub-headlines {
+  padding: 20px 50px;
+}
+.sub-headline {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.sub-headline img {
+  background-color: #fe5e35;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.text {
+  padding: 10px 100px 30px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.4);
+}
+.action-btns button,
+.right-section button {
+  font-family: "Poppins", sans-serif;
+  padding: 10px 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #fe5e35;
+  border: none;
+  font-size: 16px;
+  margin-right: 16px;
+  border-radius: 25px;
+}
+
+.right-section {
+  width: 40%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.headphone-div {
+  position: relative;
+}
+.discount {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  height: 150px;
+  aspect-ratio: 1/1;
+  /* filter: drop-shadow(30px 10px 4px #4444dd); */
+  filter: drop-shadow(0px 8px 0px rgba(0, 0, 0, 0.2));
+}
+.discount-content {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  font-family: "Fredoka One", sans-serif;
+  color: #fff;
+}
+.discount-content h4 {
+  margin-left: 24px;
+}
+.discount-content h1 {
+  font-size: 44px;
+}
+img[alt="headphone"] {
+  width: 80%;
+}
+.dots {
+  padding: 24px 0 32px 0;
+  display: flex;
+}
+.dots .dot {
+  margin: 0 16px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+.yellow-dot {
+  background-color: #fbd104;
+}
+.tomato-dot {
+  background-color: #fe5e35;
+}
+.black-dot {
+  background-color: #000;
+}
